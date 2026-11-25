@@ -1,0 +1,11 @@
+# Course environment. Python 3.13.
+# Version floors only. Replace with exact pins from the reference machine
+# before distributing: python -m pip freeze > requirements.txt
+
+numpy>=2.1
+scipy>=1.14
+matplotlib>=3.9
+pandas>=2.2
+uncertainties>=3.2
+jupyterlab>=4.2
+ipykernel>=6.29

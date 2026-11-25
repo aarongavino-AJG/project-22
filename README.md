@@ -58,9 +58,7 @@ Here `*.out` means the single final ORCA output in the specified folder. The fir
 | Table 2. Electronic energies and SCF cycles | Final energy and convergence records in `cycle1_opt_freq/*.out`, `cycle2_fukui/neutral/*.out`, `cycle2_fukui/cation/*.out`, `cycle2_fukui/anion/*.out`, and `cycle2_extension/*.out`. |
 | Table 3. Global descriptors | Frontier orbitals and dipole moments from `cycle2_fukui/neutral/*.out` and `cycle2_extension/*.out`. Changes are gas minus water. |
 | Table 4 and Table C1. Fukui indices | Final Löwdin charges in the three `cycle2_fukui/` outputs. For each atom, f⁻ = q(cation) − q(neutral) and f⁺ = q(neutral) − q(anion). Table 4 ranks the sites. Table C1 includes all 36 atoms. |
-| Table 5. Solvent comparison | Neutral orbital gaps from Table 3 and the published values in Sierra et al., Supplementary Table S1, DOI [10.1039/C5NJ02128F](https://doi.org/10.1039/C5NJ02128F). |
 | Appendix A. Worked calculations | Neutral orbital energies and charged-state energies from the single-point outputs. The Löwdin charge examples use the three aqueous charge states. |
-| Tables D1 and D2. Dataset fields | `analysis/dataset_row_22_gavino_aaron.csv`, conformer notebook settings and CSVs, ORCA output headers and convergence records, and Git commit metadata. |
 | Figure 1. Numbered structure | `analysis/figures/figure_1_hesperetin_structure.pdf`. The atom indices follow the ORCA atom order. The 1.69 Å H34···O11 distance comes from the final Cartesian coordinates in `cycle1_opt_freq/*.out`. |
 | Figure 2. Condensed Fukui maps | `analysis/figures/figure_2_fukui_maps.pdf`. Both panels use the heavy-atom indices and Löwdin charge differences underlying Table C1. |
 
